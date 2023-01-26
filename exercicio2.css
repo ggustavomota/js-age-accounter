@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto';
+    background: linear-gradient(to right, #476892, #59355D);
+}
+
+header{
+    color: white;
+}
+
+section{
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.336);
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#man, #woman{
+    padding-top: 5px;
+}
+
+#imggndr{
+    transition: 0.5s;
+    border-radius: 50%;
+}
+
+#enterbutton{
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+#enterbutton:hover{
+background-color: rgba(201, 201, 201, 0.623);
+transition: 0.3s;
+}
+
+#inputyear{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.2px solid rgba(201, 201, 201, 0.521);
+}
